@@ -38,11 +38,11 @@ const Chat = () => {
 
 
       const response = await fetch(
-        "https://lx4k38avll1ytp4b.us-east-1.aws.endpoints.huggingface.cloud",
+        <"YOUR END POINT URL">,
         {
           headers: {
             "Accept": "application/json",
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer hf_XXXXXXX",
             "Content-Type": "application/json"
           },
           method: "POST",
